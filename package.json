@@ -2,6 +2,7 @@
   "name": "ajonp",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://wesbos-react-beginners.firebaseapp.com/",
   "devDependencies": {
     "concurrently": "4.1.0",
     "react-scripts": "^2.1.1"
