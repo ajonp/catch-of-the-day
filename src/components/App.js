@@ -90,6 +90,7 @@ class App extends React.Component {
           updateFish={this.updateFish}
           deleteFish={this.deleteFish}
           loadSampleFishes={this.loadSampleFishes}
+          params={this.props.match.params}
         />
       </div>
     );
