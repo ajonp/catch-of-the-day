@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import base from '../base';
@@ -11,6 +12,9 @@ class App extends React.Component {
   state = {
     fishes: {},
     order: {}
+  };
+  static propTypes = {
+    match: PropTypes.object
   };
   componentDidMount() {
     const localRef = localStorage.getItem(this.props.match.params.storeId);
